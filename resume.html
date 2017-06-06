@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="./css/resume_style.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="#information">基本信息</a></li>
+                <li><a href="#evaluation">自我评价</a></li>
+                <li><a href="#experiences">相关学习经历</a></li>
+                <li><a href="#education">教育背景</a></li>
+                <li><a href="#languages">外语能力</a></li>
+                <li><a href="#code">最喜欢的一段代码</a></li>
+                <li><a href="#about">关于该简历</a></li>
+            </ul>
+        </nav>
+    <section id="information">
+        <h2>基本信息</h2>
+            <img src="./images/resume.jpg" alt="邓砥奕">
+            <p><span>姓名：</span>邓砥奕</p>
+            <p><span>性别：</span>男</p>
+            <p><span>出生年月：</span>1999年7月1日</p>
+            <p><span>移动电话：</span>17376512086</p>
+            <p><span>电子邮件：</span><a class="print" href="mailto:1051304599@qq.com"><em>1051304599@qq.com</em></a></p>
+            <p><span>个人网站：</span><a class="print" href="wordpress"><em>http://www.16058209.com</em></a></p>
+    </section>
+    <section id="evaluation">
+        <h2>自我评价</h2>
+            <p>湖南永州人，现在就读于杭州电子科技大学软件工程专业。平常喜欢和大家一起打篮球，一起K歌，敲敲代码，玩玩英雄联盟。从小学习围棋，具有业余五段的水平。个性开朗，耐心细致，善于沟通，有很强的责任心和团队合作精神。 对网页设计、色彩有敏锐的观察力及分析力。 适应、学习能力强，能抗压力工作，具有较强的沟通与协调能力，有良好的职业素养。 诚实守信、严谨认真、具有高度的责任心和敏锐的洞察力、独立的工作能力和团队合作精神。</p>
+    </section>
+    <section id="experiences">
+        <h2>相关学习经历</h2>
+            <h3>2009年:</h3>
+            <p>参加湖南省少儿围棋比赛获得十岁组冠军，随后在围棋定级定段赛中获得了围棋业余3段的成就。</p>
+            <h3>2013年-2016年:</h3>
+            <p>在长沙市第一中学就读高中时，担任班级的学习委员和数学课代表，参与班级的学习组织，学校开设了计算机课程，学习了VB来制作程序。曾在全国中学数学竞赛中荣获二等奖，化学竞赛中荣获三等奖。</p>
+            <h3>2016年-至今:</h3>
+            <p>就读于杭州电子科技大学软件工程专业，目前已学习了C语言，java语言以及WEB前端开发技术包括html、css、javascript。下学期大二还要继续学习与软件开发方面的知识。</p>
+        </section>
+        <section id="education">
+            <h2>教育背景</h2><br>
+            <table border="1">
+            <tr>
+                <td><span>2004年-2009年:</span></td>
+                <td>大众小学</td>
+            </tr>
+            <tr>
+                <td><span>2009年-2010年:</span></td>
+                <td>民生小学</td>
+            </tr>
+            <tr>
+                <td><span>2010年-2012年:</span></td>
+                <td>哈弗中学</td>
+            </tr>
+            <tr>
+                <td><span>2012年-2013年:</span></td>
+                <td>北雅中学</td>
+            </tr>
+            <tr>
+                <td><span>2013年-2016年:</span></td>
+                <td>长沙市第一中学</td>
+            </tr>
+             <tr>
+                <td><span>2016年-至今:</span></td>
+                <td>杭州电子科技大学</td>
+            </tr>
+            </table>
+        </section>
+        <section id="code">
+            <h2>最喜欢的一段代码</h2>
+            <code><pre>
+    private static void doIt(File file) throws Exception {
+            // System.out.println(file.getAbsolutePath());
+            BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
+            String str = null;
+            StringBuilder sb = new StringBuilder(10000);
+            boolean change = false;
+            while ((str = br.readLine()) != null) {
+            str = str.trim();
+            if (str.startsWith("")) {
+            int p = str.indexOf("*/");
+            sb.append(str.substring(p + 2)).append(" ");
+            change = true;
+            }
+        }
+    }
+    br.close();
+    if (change) {
+        FileWriter fileWriter = new FileWriter(file);
+        fileWriter.write(sb.toString());
+        fileWriter.flush();
+        fileWriter.close();
+        System.out.println(sb.toString());
+        }
+    }
+            </pre>
+            </code>
+        </section>
+        <section id="languages">
+            <h2>外语能力</h2>
+            <p>能够熟练地使用英语，拥有英语四级考试等级证书和英语三级口语等级证书。</p>
+        </section>
+        <section id="about">
+            <h2>关于该简历</h2>
+            <p>该简历页面使用前端技术制作，代码易读，语义清晰，兼容主流的现代浏览器，对旧浏览器提供有限的降级支持。页面采用响应式设计，在桌面和移动设备上均有良好表现。本着绿色环保低碳的原则，页面对打印样式也做了相应优化，您可通过浏览器的打印预览功能查看效果，并放心的将其打印为纸质文档。</p>
+            <p>该文档打印自在线版简历，您可通过地址 http://myst729.github.io/Resume/ 访问。</p>
+            <p>在线版简历页面使用前端技术制作，代码易读，语义清晰，兼容主流的现代浏览器，对旧浏览器提供有限的降级支持。页面采用响应式设计，在桌面和移动设备上均有良好表现。本着绿色环保低碳的原则，页面对打印样式做了相应优化，访问在线版地址，您可获得不同于纸质文档的舒适的阅读体验。</p>
+        </section>
+    </div>
+    <footer>
+        <p>2017 &copy; <a href="http://forcefront.com/" title="forcefront.com">force:front</a></p>
+    </footer>
+</body>
+</html>

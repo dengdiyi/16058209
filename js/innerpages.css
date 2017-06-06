@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* inner pages' z-index (we can't use this at home page because of nivo slider issue) */
+#content *{
+z-index:1900;
+position:relative;
+}
+
