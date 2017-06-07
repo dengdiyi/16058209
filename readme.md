@@ -11,10 +11,10 @@
 
 ## 2.页面结构与说明
  - 本站点由一个主页（inde.html）,一个旅游页面（travel.html）,一个个人简历页面（resume.html）,以及一个表单注册页面（form.html）组成。
- - 主页url:https://github.com/dengdiyi/16058209/blob/master/index.html；作为网站的主页，能够跳转到其它子页面。
- - 旅游页面url：https://github.com/dengdiyi/16058209/blob/master/travel.html；作为网站主页内容的页面，给大家提供旅行服务。
- - 简历页面url：https://github.com/dengdiyi/16058209/blob/master/resume.html；作为网站作者的个人简历，让大家了解网站作者。
- - 表单注册页面url：https://github.com/dengdiyi/16058209/blob/master/form.html；作为网站注册页面，让大家能够注册本网站的账号进行与用户之间的交流。
+ - 主页url:https://dengdiyi.github.io/16058209/；作为网站的主页，能够跳转到其它子页面。
+ - 旅游页面url：https://dengdiyi.github.io/16058209/travel.html；作为网站主页内容的页面，给大家提供旅行服务。
+ - 简历页面url：https://dengdiyi.github.io/16058209/resume.html；作为网站作者的个人简历，让大家了解网站作者。
+ - 表单注册页面url：https://dengdiyi.github.io/16058209/form.html；作为网站注册页面，让大家能够注册本网站的账号进行与用户之间的交流。
 
 ## 3.技术指标
  - 本网站兼容谷歌、火狐浏览器，既使用了以前版本的html和css，也使用了html5和css3的一些新特性。
